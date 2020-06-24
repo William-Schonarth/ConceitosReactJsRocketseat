@@ -6,6 +6,7 @@
 
 body {
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
 }
 
 div {
@@ -14,8 +15,13 @@ div {
 }
 
 div li {
+  max-width: 333px;
   display: flex;
   align-items: center;
+  padding-left: 15px;
+  background-color: #F0F0F5;
+  border-radius: 8px;
+
 }
 
 div li + li {
@@ -31,9 +37,11 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 8px;
 }
 
 div li button {
-  margin: 0 15px;
+  margin: 0 0 0 15px;
   background: #ca4949;
+  border-radius: 0 8px 8px 0;
 }
